@@ -1,9 +1,18 @@
-#main-header {
+.main-header {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#beautiful-art {
+  display: block;
+  margin: auto;
+  max-width: 95%;
   text-align: center;
 }
 
 #color-buttons-div {
-
+  margin: 20px;
 }
 
 .color-button {
