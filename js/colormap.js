@@ -30,6 +30,8 @@ let ColorMap = {
     // change color list style
     if (ColorMap.selectedColorElem) ColorMap.selectedColorElem.css('background-color', 'white');
     elem.css('background-color', 'lightgray');
+    // hide all loading indicators (in case some are still there), show one we care about
+    $('.loading-indicator').hide();
     elem.find('.loading-indicator').show();
     ColorMap.selectedColorElem = elem;
     // play audio for that color
