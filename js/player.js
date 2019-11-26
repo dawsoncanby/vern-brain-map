@@ -3,19 +3,18 @@ let Player = {
   isPlaying: false,
 
   // load and play audio
-  load: function(path) {
+  load: function(path, onPlayCallback) {
     // setup audio object and add listeners
     if (Player.isPlaying) Player.pauseAudio();
     Player.audioObj.src = path;
-    $('#currently-playing').html(path.slice(path.indexOf('/') + 1));
-    Player.playAudio();
+    Player.playAudio(onPlayCallback);
   },
 
-  playAudio: () => {
+  playAudio: (onPlayCallback) => {
     Player.audioObj.play().
     then(() => {
+      if (onPlayCallback) onPlayCallback();
       Player.isPlaying = true;
-      $('#play-button').html('pause');
     });
   },
 
@@ -23,7 +22,6 @@ let Player = {
     if (Player.isPlaying) {
       Player.audioObj.pause();
       Player.isPlaying = false;
-      $('#play-button').html('play')
     }
   },
 

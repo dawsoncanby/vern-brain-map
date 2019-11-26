@@ -12,7 +12,8 @@
 }
 
 #color-buttons-div {
-  margin: 20px;
+  display: block;
+  margin: auto;
 }
 
 .color-button {
@@ -37,4 +38,9 @@
   display: inline-block;
   width: 40px;
   height: 16px;
+}
+
+.loading-indicator {
+  display: none;
+  font-style: italic;
 }
