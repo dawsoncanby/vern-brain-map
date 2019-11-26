@@ -1,0 +1,31 @@
+#main-header {
+  text-align: center;
+}
+
+#color-buttons-div {
+
+}
+
+.color-button {
+  padding: 15px;
+  background-color: white;
+}
+
+.color-button:hover {
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  background-color: #e8e8e8;
+}
+
+.color-button span {
+  padding-left: 10px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 40px;
+  height: 16px;
+}
