@@ -1,11 +1,11 @@
 let ColorMap = {
   colors: {
-    'trauma': { buttonColor: 'rgb(89, 21, 18)', audioPath: 'wav/boise beer.wav', paintingColors: [[89, 21, 18]]},
-    'school': { buttonColor: 'rgb(1, 77, 125)', audioPath: 'wav/triangle.wav', paintingColors: [[1, 77, 125]]},
-    'blocked-forgotten': { buttonColor: 'rgb(247, 243, 232)', audioPath: 'wav/long boi.wav', paintingColors: [[247, 243, 232]]},
-    'people': { buttonColor: 'rgb(227, 170, 7)', audioPath: 'wav/happy art.wav', paintingColors: [[227, 170, 7], [215, 76, 42]]},
-    'positive-lessons': {buttonColor: 'rgb(0, 57, 51)', audioPath: 'wav/since the summer noah.wav', paintingColors: [[0, 57, 51]]},
-    'grey-matter': { buttonColor: 'rgb(50, 54, 54)', audioPath: 'wav/triangle.wav', paintingColors: [[50, 54, 54]]}
+    'trauma': { buttonColor: 'rgb(89, 21, 18)', audioPath: 'wav/RedActuallyaif.wav', paintingColors: [[89, 21, 18]]},
+    'depression': { buttonColor: 'rgb(1, 77, 125)', audioPath: 'wav/sad.wav', paintingColors: [[1, 77, 125]]},
+    'forgotten': { buttonColor: 'rgb(247, 243, 232)', audioPath: 'wav/space.wav', paintingColors: [[247, 243, 232]]},
+    'people': { buttonColor: 'rgb(227, 170, 7)', audioPath: 'wav/orange_1.wav', paintingColors: [[227, 170, 7], [215, 76, 42]]},
+    'thoughts': {buttonColor: 'rgb(0, 57, 51)', audioPath: 'wav/green.wav', paintingColors: [[0, 57, 51]]},
+    'gray-matter': { buttonColor: 'rgb(50, 54, 54)', audioPath: 'wav/gray.wav', paintingColors: [[50, 54, 54]]}
   },
 
   // set to the color button's div when  user chooses a color from the list
