@@ -12,6 +12,7 @@
 }
 
 #color-buttons-div {
+  padding: 10px;
   display: block;
   margin: auto;
 }
@@ -43,4 +44,15 @@
 .loading-indicator {
   display: none;
   font-style: italic;
+}
+
+#tooltip {
+  position: absolute;
+  display: block;
+  background-color: black;
+  color: white;
+  z-index: 999;
+  padding: 5px;
+  border-radius: 4px;
+  display: block;
 }
